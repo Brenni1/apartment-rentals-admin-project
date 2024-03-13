@@ -7,22 +7,30 @@
 
 #navBar {
   position: relative;
+  flex-flow: auto;
   top: 0;
   right: 0;
   margin-bottom: 100px;
 }
 
 #footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 
 #sidebar {
   position: fixed;
   left: 0;
+  padding-top: 35vh;
 }
 
 .card {
   border: 4px solid black;
   margin-bottom: 4px;
+}
+
+.ApartmentDetailsPage {
+  border: 4px solid black;
+  margin-bottom: 4px;
+  flex-flow: auto;
 }
